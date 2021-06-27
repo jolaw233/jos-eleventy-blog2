@@ -1,3 +1,11 @@
+---
+layout: layouts/post.njk
+title: About Me
+templateClass: tmpl-post
+eleventyNavigation:
+  key: About Me
+  order: 3
+---
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -21,14 +29,5 @@
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">Next
       </button>
  </div>
-
----
-layout: layouts/post.njk
-title: About Me
-templateClass: tmpl-post
-eleventyNavigation:
-  key: About Me
-  order: 3
----
 
 I am a person that writes stuff.
